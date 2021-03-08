@@ -8,19 +8,19 @@ tagline: 日拱一卒，保持好奇
 
 features: # 可选的
   - title: 基础知识
-    details: 计算机网络、数据结构等基础知识
-    link: /technology/
-    imgUrl: /img/other.png
+    details: 计算机网络、数据结构、深度学习等基础知识
+    link: /basic/
+    imgUrl: /img/basic.png
   
 
   - title: 计算机视觉
     details: 图像分类、分割等视觉技术
-    link: /cv/ # 可选
-    imgUrl: /img/more.png # 可选
+    link: /cv/ 
+    imgUrl: /img/cv.png 
 
-  - title: 技术
+  - title: 技术文章
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
-    imgUrl: /img/other.png
+    imgUrl: /img/technology.png
   
   
