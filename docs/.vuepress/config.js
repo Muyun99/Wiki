@@ -15,11 +15,21 @@ module.exports = {
   themeConfig,
 }
 
-// module.exports = {
-//   themeConfig: {
-//     repo: 'muyun99/Wiki', // Github仓库地址
-//     docsDir: 'docs', // .md文件放在了docs目录下
-//     editLinks: true, // 启用编辑链接
-//     editLinkText: '编辑',
-//   }
-// }
+module.exports = {
+  plugins: [
+    [
+      'vuepress-plugin-comment',
+      {
+        choosen: 'gitalk', 
+        options: {
+          clientID: 'f7a7d88100955b9620ef',
+          clientSecret: '9277c5b00609c8aae5e2854e1a0957d304e41842',
+          repo: 'Wiki', // GitHub 仓库
+          owner: 'Muyun99', // GitHub仓库所有者
+          admin: ['Muyun99'], // 对仓库有写权限的人
+          distractionFreeMode: false 
+        }
+      }
+    ]
+  ]
+}
