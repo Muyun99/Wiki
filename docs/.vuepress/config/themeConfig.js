@@ -57,10 +57,11 @@ module.exports = {
     slogan: '努力成为一个善良的人',
   },
   social: {
-    iconfontCssFile: '//at.alicdn.com/t/font_2409154_lm62tuw4cvr.css', 
+    // 社交图标，显示于博主信息栏和页脚栏
+    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
-        iconClass: 'icon-mail',
+        iconClass: 'icon-youjian',
         title: '发邮件',
         link: 'mailto:yundoo99@gmail.com',
       },
@@ -70,12 +71,12 @@ module.exports = {
         link: 'https://github.com/muyun99',
       },
       {
-        iconClass: 'icon-Blog',
+        iconClass: 'icon-QQ',
         title: '博客',
         link: 'https://muyun.work',
       },
       {
-        iconClass: 'icon-icon-test',
+        iconClass: 'icon-erji',
         title: '听音乐',
         link: 'https://music.163.com/#/playlist?id=713385758',
       },
