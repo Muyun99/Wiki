@@ -59,9 +59,10 @@ module.exports = {
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    iconfontCssFile: '//at.alicdn.com/t/font_2409154_6mouiwabqg.css',
     icons: [
       {
-        iconClass: 'icon-youjian',
+        iconClass: 'icon-mail',
         title: '发邮件',
         link: 'mailto:yundoo99@gmail.com',
       },
@@ -71,12 +72,12 @@ module.exports = {
         link: 'https://github.com/muyun99',
       },
       {
-        iconClass: 'icon-QQ',
+        iconClass: 'icon-Blog',
         title: '博客',
         link: 'https://muyun.work',
       },
       {
-        iconClass: 'icon-erji',
+        iconClass: 'icon-icon-test',
         title: '听音乐',
         link: 'https://music.163.com/#/playlist?id=713385758',
       },
