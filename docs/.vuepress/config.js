@@ -11,11 +11,6 @@ module.exports = {
   },
 
   head,
-  plugins,
-  themeConfig,
-}
-
-module.exports = {
   plugins: [
     [
       'vuepress-plugin-comment',
@@ -31,5 +26,6 @@ module.exports = {
         }
       }
     ]
-  ]
+  ],
+  themeConfig,
 }
