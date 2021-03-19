@@ -4,7 +4,7 @@ const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
   theme: 'vdoing', // 使用依赖包主题
-  title: "Muyun's wiki",
+  title: "Muyun99's wiki",
   description: '',
   markdown: {
     lineNumbers: true, // 代码行号
