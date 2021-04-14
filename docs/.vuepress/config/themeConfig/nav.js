@@ -1,6 +1,9 @@
 // nav
 module.exports = [
-  { text: '首页', link: '/' },
+  { 
+    text: '首页', 
+    link: '/' 
+  },
   {
     text: '基础知识',
     link: '/basic/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
@@ -22,6 +25,12 @@ module.exports = [
     ],
   },
   {
+    text: '论文阅读',
+    link: '/paper/',
+    items: [
+    ],
+  },
+  {
     text: '更多',
     link: '/more/',
     items: [
@@ -39,7 +48,6 @@ module.exports = [
     items: [
       { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
       { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-      { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
     ],
   },
   {

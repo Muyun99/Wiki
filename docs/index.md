@@ -23,4 +23,3 @@ features: # 可选的
     link: /technology/
     imgUrl: /img/technology.png
   
-  
