@@ -30,15 +30,6 @@ module.exports = {
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>`,
-  // sidebarT:
-  //   `<!--  固定100% * 150px可显示，max-height:150px 未见显示-->
-  //   <ins class="adsbygoogle"
-  //         style="display:inline-block;width:100%;max-height:150px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
   sidebarB:
     `<!-- 正方形 -->
       <ins class="adsbygoogle"
@@ -59,7 +50,6 @@ module.exports = {
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
       </script>`,
-  // pageTshowMode: 'article',
   pageB:
     `<!-- 横向自适应 -->
       <ins class="adsbygoogle"
@@ -71,17 +61,6 @@ module.exports = {
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
       </script>`,
-  // pageBshowMode: 'article',
-  // windowLB: // 会遮挡部分侧边栏
-  //   `<!-- 固定200*200px -->
-  //     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  //     <ins class="adsbygoogle"
-  //         style="display:inline-block;width:200px;height:200px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
   windowRB:
      `<!-- 固定160*160px -->
       <ins class="adsbygoogle"
@@ -93,14 +72,3 @@ module.exports = {
       </script>
       `,
 }
-
-
-// module.exports = {
-//   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-// }
